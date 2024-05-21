@@ -5,13 +5,14 @@ First We will setup the backend.
 ## Getting started
 
 ### enviroment
-You can set two enviroment variables:
+You can set two enviroment variables in ```.env``` file with values:
 - STABILITY_TOKEN: the token than we use for stability api.
 - PORT: port where application will listen. default : 3000
 
 
 ### install and run
 ```
+    cd backend
     npm install
     npm run dev
 ```
@@ -47,12 +48,13 @@ Setup of our front app.
 ## Getting started
 
 ### enviroment
-You can set one enviroment variables:
+You can set one enviroment variables in ```.env``` file with values:
 - BASE_URL: the URL of our API.
 
 
 ### install and run
 ```
+    cd backend
     npm install
     npm run dev
 ```

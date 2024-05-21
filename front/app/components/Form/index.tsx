@@ -48,6 +48,7 @@ export default function Form({ onSuccess }: Props) {
             setImg(null);
           }}
           reject={() => {
+            setIndex(0);
             setForm({});
             setImg(null);
           }}

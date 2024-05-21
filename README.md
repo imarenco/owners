@@ -54,7 +54,7 @@ You can set one enviroment variables in ```.env``` file with values:
 
 ### install and run
 ```
-    cd backend
+    cd front
     npm install
     npm run dev
 ```
